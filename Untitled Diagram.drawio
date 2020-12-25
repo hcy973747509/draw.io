@@ -1,1 +1,230 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T08:58:57.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.2" etag="CF6AtoweSrbbTRcm2hMt" type="github"><diagram id="kZ7nAqTeuUWofJb11mI1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-25T09:49:52.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="plhgMDLHqoxtdaHS-Ot0" version="14.1.2" type="github">
+  <diagram id="kZ7nAqTeuUWofJb11mI1" name="Page-1">
+    <mxGraphModel dx="2249" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A229mnzer8tno3ePFTrJ-74" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;后处理&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#66B2FF;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="2430" width="430" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-34" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1430" width="500" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-1" target="A229mnzer8tno3ePFTrJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-1" value="合同签署流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-2" target="A229mnzer8tno3ePFTrJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-2" value="合同初始化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-9" value="定时任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-4" target="A229mnzer8tno3ePFTrJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-4" value="合同签署" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-8" value="合同存证" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-10" target="A229mnzer8tno3ePFTrJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-10" value="对外接口&lt;br&gt;合同初始化流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-11" target="A229mnzer8tno3ePFTrJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-11" value="校验用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-13" target="A229mnzer8tno3ePFTrJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-13" value="获取合同配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-15" target="A229mnzer8tno3ePFTrJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-15" value="根据配置解析合同签署人信息（甲方、乙方）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-17" target="A229mnzer8tno3ePFTrJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-17" value="封装第三方合同替换对象信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-21" target="A229mnzer8tno3ePFTrJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-27" value="base64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-21" target="A229mnzer8tno3ePFTrJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-21" value="&lt;span&gt;调用放心签替换合同模板&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-24" value="异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-26" target="A229mnzer8tno3ePFTrJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-26" value="上传被替换的合同文件（FileRecord）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-28" target="A229mnzer8tno3ePFTrJ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-28" value="将替换之后的PDF转换成长图并上传（&lt;span style=&quot;color: rgb(229 , 192 , 123) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Pdf2ImageUtil&lt;/span&gt;&lt;span&gt;）&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-30" target="A229mnzer8tno3ePFTrJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-30" value="将以上信息保存到合同，并将合同保存到数据库" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-32" value="保存签署人信息到签署人信息表" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-35" value="&lt;h2&gt;&lt;b&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#66b2ff&quot;&gt;后处理&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-36" target="A229mnzer8tno3ePFTrJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-36" value="对外接口&lt;br&gt;合同签署流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-37" target="A229mnzer8tno3ePFTrJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-37" value="根据contractCode校验合同是否存在" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-41" target="A229mnzer8tno3ePFTrJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-41" target="A229mnzer8tno3ePFTrJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-41" value="签署人是否存在签约图片" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="760" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-43" target="A229mnzer8tno3ePFTrJ-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1260" />
+              <mxPoint x="1230" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-43" value="存在" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-45" target="A229mnzer8tno3ePFTrJ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-45" value="不存在" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-47" target="A229mnzer8tno3ePFTrJ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-47" value="根据对方提供的图片地址（PNG,3MB）上传到服务器并返回FileRecord" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-49" target="A229mnzer8tno3ePFTrJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-49" value="签署人图片信息处理完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-52" target="A229mnzer8tno3ePFTrJ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-52" value="查询数据库合同签署人信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-54" target="A229mnzer8tno3ePFTrJ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-54" value="封装合同签约信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-60" target="A229mnzer8tno3ePFTrJ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-60" target="A229mnzer8tno3ePFTrJ-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-60" value="根据配置 &lt;br&gt;signway选择不同的签署方式" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1740" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="2190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="2100" />
+              <mxPoint x="1220" y="2100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-62" value="正常签署" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="2190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="2100" />
+              <mxPoint x="1220" y="2100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-64" value="关键字签署" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#66B2FF;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-69" target="A229mnzer8tno3ePFTrJ-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-69" target="A229mnzer8tno3ePFTrJ-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="2500" />
+              <mxPoint x="1220" y="2500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-69" value="签署" style="rhombus;whiteSpace=wrap;html=1;fontColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="2190" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-70" value="&lt;font color=&quot;#000000&quot;&gt;异常&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-76" target="A229mnzer8tno3ePFTrJ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-76" value="上传终版合同到服务器，获取FileRecord" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="A229mnzer8tno3ePFTrJ-77" target="A229mnzer8tno3ePFTrJ-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-77" value="将终版合同转换为长图，并保存上传服务器" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A229mnzer8tno3ePFTrJ-79" value="更新合同信息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2720" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
