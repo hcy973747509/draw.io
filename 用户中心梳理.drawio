@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T09:52:22.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="b1LcxtPwczcofWqG3oH7" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T09:58:12.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="BVk4k6B5zhjoj184zbVG" version="14.2.7" type="github">
   <diagram id="7nUUbsPAD171NSKVPP-3" name="Page-1">
     <mxGraphModel dx="2249" dy="1974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -52,6 +52,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-47" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC99FF;strokeWidth=1;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="RK_yV3QGJpCT5wXAtmzq-15" target="RK_yV3QGJpCT5wXAtmzq-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="70" />
+              <mxPoint x="-170" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RK_yV3QGJpCT5wXAtmzq-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;超级管理员（1）&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
@@ -93,7 +101,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RK_yV3QGJpCT5wXAtmzq-21" value="&lt;font style=&quot;font-size: 15px&quot;&gt;微信&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-21" value="&lt;font style=&quot;font-size: 15px&quot;&gt;微信&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="710" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RK_yV3QGJpCT5wXAtmzq-24" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;dashed=1;" edge="1" parent="1" source="RK_yV3QGJpCT5wXAtmzq-22">
@@ -101,7 +109,7 @@
             <mxPoint x="900" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RK_yV3QGJpCT5wXAtmzq-22" value="&lt;font style=&quot;font-size: 15px&quot;&gt;支付宝&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-22" value="&lt;font style=&quot;font-size: 15px&quot;&gt;支付宝&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="877" y="10" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RK_yV3QGJpCT5wXAtmzq-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;小程序系统&lt;/font&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
@@ -115,8 +123,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RK_yV3QGJpCT5wXAtmzq-26" value="&lt;font style=&quot;font-size: 15px&quot;&gt;h5（招聘（手机号唯一），灵活就业（身份证唯一））&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="70" width="170" height="110" as="geometry" />
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-26" value="&lt;font style=&quot;font-size: 15px&quot;&gt;h5（招聘（手机号唯一）&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="70" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RK_yV3QGJpCT5wXAtmzq-37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;align=left;" vertex="1" parent="1">
           <mxGeometry x="-300" y="200" width="260" height="260" as="geometry" />
@@ -130,21 +138,27 @@
         <mxCell id="RK_yV3QGJpCT5wXAtmzq-40" value="管理员用户(2)" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="-210" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RK_yV3QGJpCT5wXAtmzq-43" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;fillColor=#A8DADC;fontColor=#1D3557;strokeColor=#CC99FF;" edge="1" parent="1" source="RK_yV3QGJpCT5wXAtmzq-41" target="RK_yV3QGJpCT5wXAtmzq-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-140" y="520" />
-              <mxPoint x="110" y="520" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-48" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CC99FF;strokeWidth=1;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="RK_yV3QGJpCT5wXAtmzq-41" target="RK_yV3QGJpCT5wXAtmzq-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RK_yV3QGJpCT5wXAtmzq-44" value="同一个平台用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="RK_yV3QGJpCT5wXAtmzq-43">
-          <mxGeometry x="-0.0732" y="1" relative="1" as="geometry">
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-49" value="同一个平台用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="RK_yV3QGJpCT5wXAtmzq-48">
+          <mxGeometry x="-0.1692" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RK_yV3QGJpCT5wXAtmzq-41" value="平台用户（3）" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="-200" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-46" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC99FF;strokeWidth=1;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="RK_yV3QGJpCT5wXAtmzq-45" target="RK_yV3QGJpCT5wXAtmzq-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="230" />
+              <mxPoint x="900" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK_yV3QGJpCT5wXAtmzq-45" value="&lt;font style=&quot;font-size: 15px&quot;&gt;h5（灵活就业（身份证唯一））&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=1 1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="20" width="130" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
