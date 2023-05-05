@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T03:02:13.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nCBx6Pb2UCgN-83LQcFA" version="21.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T03:08:12.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8QoYAhrBl59Bhxn8IfeN" version="21.2.8" type="github">
   <diagram name="Page-1" id="L4oFwQnHnxXDa5KQEsco">
-    <mxGraphModel dx="1421" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,6 +396,21 @@
         </mxCell>
         <mxCell id="t4WfQ81POq1n-Xx_Ah7z-58" value="&lt;div style=&quot;background-color: rgb(40, 44, 52); color: rgb(187, 187, 187); font-family: SimSun, monospace; font-size: 9.8pt;&quot;&gt;真正执行校验逻辑&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="2090" y="1920" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t4WfQ81POq1n-Xx_Ah7z-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#660033;" edge="1" parent="1" source="t4WfQ81POq1n-Xx_Ah7z-59" target="t4WfQ81POq1n-Xx_Ah7z-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4WfQ81POq1n-Xx_Ah7z-59" value="加分布式锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#FF9933;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4WfQ81POq1n-Xx_Ah7z-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#660033;" edge="1" parent="1" source="t4WfQ81POq1n-Xx_Ah7z-61" target="t4WfQ81POq1n-Xx_Ah7z-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4WfQ81POq1n-Xx_Ah7z-61" value="&lt;font color=&quot;#ff9933&quot;&gt;是否存在相同认证&lt;/font&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;strokeColor=#76608A;fillColor=#76608A;" vertex="1" parent="1">
+          <mxGeometry x="2165" y="2110" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t4WfQ81POq1n-Xx_Ah7z-63" value="加分布式锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#FF9933;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="2270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
