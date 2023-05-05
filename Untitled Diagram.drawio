@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T15:18:08.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ysxDUtwZcekF0qvQEi_n" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T15:20:29.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WNNxIX7Jy3W2y03qtzPr" version="21.2.9" type="github">
   <diagram name="Page-1" id="L4oFwQnHnxXDa5KQEsco">
-    <mxGraphModel dx="1812" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2407" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="330" width="1920" height="6430" as="geometry" />
+        </mxCell>
         <mxCell id="t4WfQ81POq1n-Xx_Ah7z-89" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1700" y="1471.5" width="1076" height="1548.5" as="geometry" />
         </mxCell>
@@ -64,7 +67,7 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G5U4XLj0ak2euyrZSOL5-15" value="&lt;h1&gt;任务状态&lt;/h1&gt;&lt;p&gt;1&amp;nbsp; 新建&lt;/p&gt;&lt;p&gt;2&amp;nbsp;&amp;nbsp;已驳回&lt;/p&gt;&lt;p&gt;3&amp;nbsp;&amp;nbsp;已发布&lt;/p&gt;&lt;p&gt;4&amp;nbsp;&amp;nbsp;已关闭&lt;/p&gt;&lt;p&gt;5&amp;nbsp;&amp;nbsp;工作中&lt;/p&gt;&lt;p&gt;6&amp;nbsp;&amp;nbsp;确认中&lt;/p&gt;&lt;p&gt;7&amp;nbsp;&amp;nbsp;修改中&lt;/p&gt;&lt;p&gt;8&amp;nbsp;&amp;nbsp;待结算&lt;/p&gt;&lt;p&gt;9&amp;nbsp;&amp;nbsp;已完成&lt;/p&gt;&lt;p&gt;10&amp;nbsp; 结算中&lt;/p&gt;&lt;p&gt;11&amp;nbsp;&amp;nbsp;结算失败&lt;/p&gt;&lt;p&gt;12&amp;nbsp;&amp;nbsp;退款&lt;/p&gt;&lt;p&gt;13&amp;nbsp;&amp;nbsp;限额校验不通过&lt;/p&gt;&lt;p&gt;14&amp;nbsp;&amp;nbsp;报名确认中&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="374" width="130" height="420" as="geometry" />
+          <mxGeometry x="-740" y="480" width="130" height="420" as="geometry" />
         </mxCell>
         <mxCell id="G5U4XLj0ak2euyrZSOL5-17" value="导入批次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-350" y="490" width="70" height="40" as="geometry" />
@@ -998,6 +1001,9 @@
         </mxCell>
         <mxCell id="cqIZYE_Vjl1FvR0kZLFm-68" value="继续同步用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
           <mxGeometry x="49.99999999999994" y="6290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-74" value="TASK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="340" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
