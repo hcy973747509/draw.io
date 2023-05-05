@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T13:54:58.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5YPjuEtqzylnAOnf5zQp" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T15:07:17.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9sk8BU_JkPv9_w8hlfz0" version="21.2.9" type="github">
   <diagram name="Page-1" id="L4oFwQnHnxXDa5KQEsco">
-    <mxGraphModel dx="1475" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1215" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -782,6 +782,119 @@
         </mxCell>
         <mxCell id="t4WfQ81POq1n-Xx_Ah7z-174" value="同步慧用工&lt;br&gt;（合同）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="485" y="5060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="5201" width="430" height="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-6" value="同步慧用工合同信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="5210" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-7" target="cqIZYE_Vjl1FvR0kZLFm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-10" value="同一个消息消费超过3次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqIZYE_Vjl1FvR0kZLFm-9">
+          <mxGeometry x="-0.103" relative="1" as="geometry">
+            <mxPoint x="3" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.493;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-7" target="cqIZYE_Vjl1FvR0kZLFm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-7" value="同步慧用工&lt;br&gt;（合同）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="400" y="5260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-8" value="钉钉提醒" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="615" y="5360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-11" target="cqIZYE_Vjl1FvR0kZLFm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-15" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqIZYE_Vjl1FvR0kZLFm-14">
+          <mxGeometry x="-0.5244" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-11" target="cqIZYE_Vjl1FvR0kZLFm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-19" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqIZYE_Vjl1FvR0kZLFm-18">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-11" value="数据库是否存在？" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;strokeColor=#76608A;fillColor=#76608A;" vertex="1" parent="1">
+          <mxGeometry x="385" y="5470" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-13" target="cqIZYE_Vjl1FvR0kZLFm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-13" value="初始化合同" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="615" y="5600.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-17" target="cqIZYE_Vjl1FvR0kZLFm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-17" value="查询需要签署&lt;br&gt;的合同模板" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="399.99999999999994" y="5690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-21" target="cqIZYE_Vjl1FvR0kZLFm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-39" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqIZYE_Vjl1FvR0kZLFm-25">
+          <mxGeometry x="-0.2309" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-21" target="cqIZYE_Vjl1FvR0kZLFm-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-42" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqIZYE_Vjl1FvR0kZLFm-41">
+          <mxGeometry x="-0.198" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-21" value="全签署成功？" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;strokeColor=#76608A;fillColor=#76608A;" vertex="1" parent="1">
+          <mxGeometry x="385" y="5820" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-24" target="cqIZYE_Vjl1FvR0kZLFm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-24" value="查询慧用工合同比对" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="399.99999999999994" y="5980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-29" target="cqIZYE_Vjl1FvR0kZLFm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-29" value="根据合同类型&lt;br&gt;更新对应数据库合同信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="399.99999999999994" y="6110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-31" target="cqIZYE_Vjl1FvR0kZLFm-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-35" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqIZYE_Vjl1FvR0kZLFm-34">
+          <mxGeometry x="-0.1571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqIZYE_Vjl1FvR0kZLFm-31" target="cqIZYE_Vjl1FvR0kZLFm-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-38" value="延时MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqIZYE_Vjl1FvR0kZLFm-37">
+          <mxGeometry x="0.1004" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-31" value="全签署成功？" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;strokeColor=#76608A;fillColor=#76608A;" vertex="1" parent="1">
+          <mxGeometry x="385" y="6230" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-33" value="查询userId对应下所有慧用工用户列表，同步用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="399.99999999999994" y="6390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-36" value="继续同步合同" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="540" y="6520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqIZYE_Vjl1FvR0kZLFm-40" value="同步用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="590" y="5920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
