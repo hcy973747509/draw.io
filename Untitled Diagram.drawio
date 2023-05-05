@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T15:07:17.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9sk8BU_JkPv9_w8hlfz0" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T15:07:29.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zPf6dLWDcXJ8PgO_kQox" version="21.2.9" type="github">
   <diagram name="Page-1" id="L4oFwQnHnxXDa5KQEsco">
-    <mxGraphModel dx="1215" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -784,7 +784,7 @@
           <mxGeometry x="485" y="5060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cqIZYE_Vjl1FvR0kZLFm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="300" y="5201" width="430" height="1409" as="geometry" />
+          <mxGeometry x="300" y="5201" width="500" height="1399" as="geometry" />
         </mxCell>
         <mxCell id="cqIZYE_Vjl1FvR0kZLFm-6" value="同步慧用工合同信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="310" y="5210" width="160" height="40" as="geometry" />
