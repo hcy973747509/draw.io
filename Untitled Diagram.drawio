@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T12:16:54.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8jTbqMcBqHilP26Xq4ZR" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T12:19:29.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aCLGVdyvSSPTJ8O8sPx-" version="21.2.9" type="github">
   <diagram name="Page-1" id="L4oFwQnHnxXDa5KQEsco">
-    <mxGraphModel dx="5863" dy="2166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5217" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1130,6 +1130,15 @@
         <mxCell id="OkxIpS9Teq_tRvHln7JW-4" value="更新批次状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
           <mxGeometry x="-167.5" y="3160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#7EA6E0;dashed=1;" edge="1" parent="1" source="OkxIpS9Teq_tRvHln7JW-6" target="OkxIpS9Teq_tRvHln7JW-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1584" y="3310" />
+              <mxPoint x="-1584" y="-570" />
+              <mxPoint x="-3420" y="-570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OkxIpS9Teq_tRvHln7JW-6" value="如果是api调用&lt;br&gt;回写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
           <mxGeometry x="-167.5" y="3280" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1158,7 +1167,7 @@
         <mxCell id="OkxIpS9Teq_tRvHln7JW-10" value="存在外部批次号？" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;strokeColor=#76608A;fillColor=#76608A;" vertex="1" parent="1">
           <mxGeometry x="-3460" y="-360" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OkxIpS9Teq_tRvHln7JW-12" value="同步task&lt;br&gt;对比头和明细状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-12" value="同步task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
           <mxGeometry x="-3150" y="-280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OkxIpS9Teq_tRvHln7JW-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.327;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OkxIpS9Teq_tRvHln7JW-13" target="OkxIpS9Teq_tRvHln7JW-16">
