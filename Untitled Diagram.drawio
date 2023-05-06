@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T12:05:27.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mioA7vSK3zfjktgT0g3s" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T12:10:49.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="p48D7a0vRzb42egtydrl" version="21.2.9" type="github">
   <diagram name="Page-1" id="L4oFwQnHnxXDa5KQEsco">
-    <mxGraphModel dx="5989" dy="2778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4899" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1129,6 +1129,15 @@
         </mxCell>
         <mxCell id="OkxIpS9Teq_tRvHln7JW-6" value="如果是api调用&lt;br&gt;回写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
           <mxGeometry x="-167.5" y="3280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OkxIpS9Teq_tRvHln7JW-9" target="OkxIpS9Teq_tRvHln7JW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-9" value="状态处理中的批次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="-3445" y="-470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-10" value="存在外部批次号？" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;strokeColor=#76608A;fillColor=#76608A;" vertex="1" parent="1">
+          <mxGeometry x="-3460" y="-360" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
