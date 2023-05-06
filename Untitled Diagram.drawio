@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T12:03:42.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="r7NBRGF6S6smL1mtSfBN" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T12:05:06.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hInKqhLhlwMsBQfrHycv" version="21.2.9" type="github">
   <diagram name="Page-1" id="L4oFwQnHnxXDa5KQEsco">
-    <mxGraphModel dx="4818" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4554" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,6 +199,9 @@
         </mxCell>
         <mxCell id="cXurQVISsMWbSHJNQezo-25" value="根据规则选择一个，智能的选择能力&lt;div style=&quot;background-color: rgb(40, 44, 52); color: rgb(187, 187, 187); font-family: SimSun, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;若当前产品存在&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;ISV&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;，则默认使用&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;ISV&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;；&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;模版为银行卡，优先级：&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;ISV&amp;gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;云直联&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;银企直联&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;模版为支付宝，优先级：&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;ISV&amp;gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;支付宝&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-273.12" y="1850.5" width="168.75" height="129.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cXurQVISsMWbSHJNQezo-30" target="OkxIpS9Teq_tRvHln7JW-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cXurQVISsMWbSHJNQezo-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="-385" y="2250" width="555" height="810" as="geometry" />
@@ -1112,6 +1115,20 @@
         </mxCell>
         <mxCell id="OkxIpS9Teq_tRvHln7JW-2" value="批次状态 ： 新建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2680" y="-500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OkxIpS9Teq_tRvHln7JW-4" target="OkxIpS9Teq_tRvHln7JW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-8" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OkxIpS9Teq_tRvHln7JW-7">
+          <mxGeometry x="-0.253" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-4" value="更新批次状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="-167.5" y="3160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkxIpS9Teq_tRvHln7JW-6" value="如果是api调用&lt;br&gt;回写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="-167.5" y="3280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
